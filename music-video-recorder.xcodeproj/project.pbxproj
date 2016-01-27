@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		8C144FDA1C56F4E2000BDF29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C144FD91C56F4E2000BDF29 /* AppDelegate.swift */; };
-		8C144FDC1C56F4E2000BDF29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C144FDB1C56F4E2000BDF29 /* ViewController.swift */; };
 		8C144FDF1C56F4E2000BDF29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C144FDD1C56F4E2000BDF29 /* Main.storyboard */; };
 		8C144FE21C56F4E2000BDF29 /* music_video_recorder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C144FE01C56F4E2000BDF29 /* music_video_recorder.xcdatamodeld */; };
 		8C144FE41C56F4E2000BDF29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C144FE31C56F4E2000BDF29 /* Assets.xcassets */; };
 		8C144FE71C56F4E2000BDF29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C144FE51C56F4E2000BDF29 /* LaunchScreen.storyboard */; };
+		8C144FEF1C56F57A000BDF29 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C144FEE1C56F57A000BDF29 /* CameraViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8C144FD61C56F4E2000BDF29 /* music-video-recorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "music-video-recorder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C144FD91C56F4E2000BDF29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8C144FDB1C56F4E2000BDF29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8C144FDE1C56F4E2000BDF29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C144FE11C56F4E2000BDF29 /* music_video_recorder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = music_video_recorder.xcdatamodel; sourceTree = "<group>"; };
 		8C144FE31C56F4E2000BDF29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C144FE61C56F4E2000BDF29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C144FE81C56F4E2000BDF29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C144FEE1C56F57A000BDF29 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CameraViewController.swift; path = ../CameraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +56,8 @@
 		8C144FD81C56F4E2000BDF29 /* music-video-recorder */ = {
 			isa = PBXGroup;
 			children = (
+				8C144FEE1C56F57A000BDF29 /* CameraViewController.swift */,
 				8C144FD91C56F4E2000BDF29 /* AppDelegate.swift */,
-				8C144FDB1C56F4E2000BDF29 /* ViewController.swift */,
 				8C144FDD1C56F4E2000BDF29 /* Main.storyboard */,
 				8C144FE31C56F4E2000BDF29 /* Assets.xcassets */,
 				8C144FE51C56F4E2000BDF29 /* LaunchScreen.storyboard */,
@@ -140,8 +140,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C144FE21C56F4E2000BDF29 /* music_video_recorder.xcdatamodeld in Sources */,
-				8C144FDC1C56F4E2000BDF29 /* ViewController.swift in Sources */,
 				8C144FDA1C56F4E2000BDF29 /* AppDelegate.swift in Sources */,
+				8C144FEF1C56F57A000BDF29 /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
