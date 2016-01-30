@@ -29,7 +29,7 @@
                                             <constraint firstAttribute="width" constant="75" id="Zi8-M3-cb3"/>
                                         </constraints>
                                         <connections>
-                                            <action selector="recordButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ycR-ga-Hqh"/>
+                                            <action selector="recordButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fyL-Fm-gsE"/>
                                         </connections>
                                     </button>
                                 </subviews>

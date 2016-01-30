@@ -1,0 +1,7 @@
+2016-01-27 13:45:15.584 music-video-recorder[2398:583671] Inputs: (
+    "<AVAudioSessionPortDescription: 0x154646540, type = MicrophoneBuiltIn; name = iPhone Microphone; UID = Built-In Microphone; selectedDataSource = Front>"
+)
+
+2016-01-27 13:45:15.587 music-video-recorder[2398:583671] Outputs: (
+    "<AVAudioSessionPortDescription: 0x1545495d0, type = Speaker; name = Speaker; UID = Speaker; selectedDataSource = (null)>"
+)

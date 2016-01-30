@@ -13,6 +13,8 @@
 		8C144FE41C56F4E2000BDF29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C144FE31C56F4E2000BDF29 /* Assets.xcassets */; };
 		8C144FE71C56F4E2000BDF29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C144FE51C56F4E2000BDF29 /* LaunchScreen.storyboard */; };
 		8C144FEF1C56F57A000BDF29 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C144FEE1C56F57A000BDF29 /* CameraViewController.swift */; };
+		8C144FF11C59716C000BDF29 /* notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8C144FF01C59716C000BDF29 /* notes.txt */; };
+		8C144FF31C5C22DF000BDF29 /* gloving_is_not_a_crime.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8C144FF21C5C22DF000BDF29 /* gloving_is_not_a_crime.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		8C144FE61C56F4E2000BDF29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C144FE81C56F4E2000BDF29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C144FEE1C56F57A000BDF29 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CameraViewController.swift; path = ../CameraViewController.swift; sourceTree = "<group>"; };
+		8C144FF01C59716C000BDF29 /* notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = notes.txt; sourceTree = SOURCE_ROOT; };
+		8C144FF21C5C22DF000BDF29 /* gloving_is_not_a_crime.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gloving_is_not_a_crime.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,7 @@
 			children = (
 				8C144FD81C56F4E2000BDF29 /* music-video-recorder */,
 				8C144FD71C56F4E2000BDF29 /* Products */,
+				8C144FF01C59716C000BDF29 /* notes.txt */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,6 +64,7 @@
 				8C144FEE1C56F57A000BDF29 /* CameraViewController.swift */,
 				8C144FD91C56F4E2000BDF29 /* AppDelegate.swift */,
 				8C144FDD1C56F4E2000BDF29 /* Main.storyboard */,
+				8C144FF21C5C22DF000BDF29 /* gloving_is_not_a_crime.jpg */,
 				8C144FE31C56F4E2000BDF29 /* Assets.xcassets */,
 				8C144FE51C56F4E2000BDF29 /* LaunchScreen.storyboard */,
 				8C144FE81C56F4E2000BDF29 /* Info.plist */,
@@ -126,9 +132,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C144FF11C59716C000BDF29 /* notes.txt in Resources */,
 				8C144FE71C56F4E2000BDF29 /* LaunchScreen.storyboard in Resources */,
 				8C144FE41C56F4E2000BDF29 /* Assets.xcassets in Resources */,
 				8C144FDF1C56F4E2000BDF29 /* Main.storyboard in Resources */,
+				8C144FF31C5C22DF000BDF29 /* gloving_is_not_a_crime.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +299,7 @@
 				8C144FED1C56F4E2000BDF29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
